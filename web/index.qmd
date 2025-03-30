@@ -1,0 +1,44 @@
+---
+title: "resn.dev"
+#image: ../../../fig/avatar-256.png
+image: fig/avatar-256.png
+about: 
+  template: trestles
+  image-shape: round
+  image-width: 16em
+  links:
+    - text: email
+      href: mailto:nils.holmberg@resn.dev
+      icon: mailbox #https://icons.getbootstrap.com/
+      target: _blank
+    - text: github
+      href: https://github.com/nils-holmberg/resn-dev
+      icon: github
+      target: _blank
+    - text: linkedin
+      href: https://www.linkedin.com/in/nils-holmberg
+      icon: linkedin
+      target: _blank
+#    - text: twitter
+#      href: https://twitter.com/nils_holmberg
+#      icon: twitter
+    - text: youtube
+      href: https://www.youtube.com/@nils.holmberg
+      icon: youtube
+      target: _blank
+---
+
+## research and ..
+
+This is a Quarto website.
+
+## .. development
+
+Quarto websites <https://quarto.org/docs/websites>.
+
+
+
+
+
+
+

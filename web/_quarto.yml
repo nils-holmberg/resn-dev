@@ -1,0 +1,42 @@
+project:
+  type: website
+
+website:
+  title: "resn.dev"
+  favicon: fig/favicon.png
+  navbar:
+    background: primary
+    left:
+      - href: index.qmd
+        text: home
+      - href: research.qmd
+        text: research
+      - text: nilsh
+        menu: 
+        - href: nilsh.qmd
+          text: cv academy
+        - href: nilsh.qmd
+          text: cv industry
+      - href: development.qmd
+        text: development
+    tools:
+      - icon: github
+        menu:
+          - text: code
+            url:  https://code.com
+          - text: bugs
+            url:  https://bugs.com
+  site-url: https://resn.dev
+
+format:
+  html:
+    theme:
+      light: cyborg
+      dark: cyborg
+    css: styles.css
+    page-layout: full
+    toc: true
+#    embed-resources: true
+
+
+

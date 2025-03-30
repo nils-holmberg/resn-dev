@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "nilsh.html",
+    "href": "nilsh.html",
+    "title": "nils holmberg",
+    "section": "",
+    "text": "test this site"
+  },
+  {
+    "objectID": "development.html",
+    "href": "development.html",
+    "title": "development",
+    "section": "",
+    "text": "test this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "resn.dev",
+    "section": "",
+    "text": "This is a Quarto website."
+  },
+  {
+    "objectID": "index.html#research-and-..",
+    "href": "index.html#research-and-..",
+    "title": "resn.dev",
+    "section": "",
+    "text": "This is a Quarto website."
+  },
+  {
+    "objectID": "index.html#development",
+    "href": "index.html#development",
+    "title": "resn.dev",
+    "section": ".. development",
+    "text": ".. development\nQuarto websites https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "research",
+    "section": "",
+    "text": "About this site"
+  }
+]
