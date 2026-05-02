@@ -10,8 +10,10 @@
 
 ---
 
-- [internal repo](https://github.com/nils-holmberg/resn-dev/)
-- [external website](https://resn.dev)
+- [github repo](https://github.com/nils-holmberg/resn-dev/)
+- [github pages](https://nils-holmberg.github.io/resn-dev/web/)
+- [netlify website](https://resn-dev.netlify.app/)
+- [domain website](https://resn.dev)
 
 
 
