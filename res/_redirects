@@ -1,0 +1,6 @@
+# Domain redirect (Netlify already does this automatically, but for reference):
+http://www.resn.dev/*   https://resn.dev/:splat   301!
+http://resn.dev/*       https://resn.dev/:splat   301!
+
+# SPA / Client-side routing fallback (if using React/Vue/Svelte):
+/*                      /index.html               200
