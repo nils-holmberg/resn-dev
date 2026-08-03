@@ -3,3 +3,11 @@
 .navbar {
   background-color: #D3D3D3;
 }
+
+/* mobile: quarto sets padding-top:0 !important below 992px, which makes the
+   round about-image touch the navbar; restore a small gap (desktop uses 3em) */
+@media (max-width: 991.98px) {
+  div.quarto-about-trestles {
+    padding-top: 1.5em !important;
+  }
+}
