@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "development.html",
-    "href": "development.html",
-    "title": "development",
-    "section": "",
-    "text": "test this site"
-  },
-  {
     "objectID": "nilsh.html",
     "href": "nilsh.html",
     "title": "nils holmberg",
@@ -40,5 +33,12 @@
     "title": "resn.dev",
     "section": ".. development",
     "text": ".. development\nQuarto websites https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "development.html",
+    "href": "development.html",
+    "title": "development",
+    "section": "",
+    "text": "test this site"
   }
 ]
