@@ -8,8 +8,19 @@
   body { margin: 0; padding: 2rem; background: #222; color: #ddd;
          font-family: monospace; }
   h1 { font-size: 1.2rem; font-weight: normal; text-align: center; }
+  h2 { font-size: 0.9rem; font-weight: normal; color: #8f8; max-width: 60rem;
+       margin: 2rem auto 0.75rem; padding-bottom: 0.35rem;
+       border-bottom: 1px solid #444; letter-spacing: 0.08em;
+       text-transform: uppercase; }
   .grid { display: grid; grid-template-columns: repeat(3, 1fr);
           gap: 1.5rem; max-width: 60rem; margin: 0 auto; }
+  /* reflow to fewer columns on narrow screens */
+  @media (max-width: 48rem) {
+    .grid { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 30rem) {
+    .grid { grid-template-columns: 1fr; }
+  }
   figure { margin: 0; text-align: center; }
   figure img { width: 100%; height: auto; display: block;
                /* checkerboard so transparent areas are visible */
@@ -20,6 +31,8 @@
 </head>
 <body>
 <h1>avatar gallery (256px)</h1>
+
+<h2>green backgrounds</h2>
 <div class="grid">
   <figure><img src="avatar-256.png" alt="master raster from svg">
     <figcaption>avatar-256.png — master raster (from svg)</figcaption></figure>
@@ -27,16 +40,40 @@
     <figcaption>avatar-256.svg — 1) master</figcaption></figure>
   <figure><img src="avatar-256-green-transparent.svg" alt="green bg, transparent chars">
     <figcaption>avatar-256-green-transparent.svg — 2) green / transparent</figcaption></figure>
+</div>
+
+<h2>black backgrounds</h2>
+<div class="grid">
   <figure><img src="avatar-256-black-white.svg" alt="black bg, white chars">
     <figcaption>avatar-256-black-white.svg — 3) black / white</figcaption></figure>
   <figure><img src="avatar-256-black-transparent.svg" alt="black bg, transparent chars">
     <figcaption>avatar-256-black-transparent.svg — 4) black / transparent</figcaption></figure>
+  <figure><img src="avatar-256-black-green.svg" alt="black bg, green chars">
+    <figcaption>avatar-256-black-green.svg — 8) black / green</figcaption></figure>
+</div>
+
+<h2>white backgrounds</h2>
+<div class="grid">
   <figure><img src="avatar-256-white-black.svg" alt="white bg, black chars">
     <figcaption>avatar-256-white-black.svg — 5) white / black</figcaption></figure>
+  <figure><img src="avatar-256-white-green.svg" alt="white bg, green chars">
+    <figcaption>avatar-256-white-green.svg — 9) white / green</figcaption></figure>
+  <figure><img src="avatar-256-white-transparent.svg" alt="white bg, transparent chars">
+    <figcaption>avatar-256-white-transparent.svg — 11) white / transparent</figcaption></figure>
+</div>
+
+<h2>transparent backgrounds</h2>
+<div class="grid">
   <figure><img src="avatar-256-transparent-white.svg" alt="transparent bg, white chars">
     <figcaption>avatar-256-transparent-white.svg — 6) transparent / white</figcaption></figure>
   <figure><img src="avatar-256-transparent-black.svg" alt="transparent bg, black chars">
     <figcaption>avatar-256-transparent-black.svg — 7) transparent / black</figcaption></figure>
+  <figure><img src="avatar-256-transparent-green.svg" alt="transparent bg, green chars">
+    <figcaption>avatar-256-transparent-green.svg — 10) transparent / green</figcaption></figure>
+</div>
+
+<h2>legacy</h2>
+<div class="grid">
   <figure><img src="avatar-256-font.png" alt="legacy font-rendered png">
     <figcaption>avatar-256-font.png — legacy font method</figcaption></figure>
 </div>
