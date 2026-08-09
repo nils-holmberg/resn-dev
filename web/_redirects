@@ -1,0 +1,3 @@
+# Force HTTPS & canonical domain
+http://resn.dev/*    https://resn.dev/:splat   301!
+https://www.resn.dev/* https://resn.dev/:splat 301!
